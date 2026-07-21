@@ -110,3 +110,26 @@ if False:
     sentence = "one-two-three-four"
     limit_split = sentence.split('-',2)
     print(limit_split)
+# Concatination
+if False:
+    # Normal concatincation
+    str1 = "hello"
+    str2 = "world"
+    result = str1 + str2
+    print("Result: ",result)
+
+    # List concatination
+    log_pieces = ["2026-07-21", "INFO", "System reboot completed."]
+    formatted_logs = "|".join(log_pieces)
+    print('formatted Logs: ',formatted_logs)
+
+    # F string method
+    modern_output = f"Welcome back {str1}! Your token is {str2}."
+    print("mordern: ",modern_output)
+
+    # Litteral Adjencecy
+    txt = "hello" "world" # with space
+    txt2 = "hello" " " "world"
+    txt3 = "hello"
+    "world"  #new line
+    print(txt,txt2,txt3)
