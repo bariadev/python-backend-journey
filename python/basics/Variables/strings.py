@@ -133,3 +133,13 @@ if False:
     txt3 = "hello"
     "world"  #new line
     print(txt,txt2,txt3)
+# Escape Character
+if True:
+    print('That\'s what she said!')
+    print('Give some Space\there')
+    print('add backslash is here : (\\)')
+    print('new line\nnew line 2')
+    print('old text\r new')
+    print('remove thisx\b from here')
+    print(f'this is hex \"{'\x41'}\" and this is oct \"{'\117'}\" values')
+    print("Page One Content\fPage Two Content")
