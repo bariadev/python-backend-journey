@@ -134,7 +134,7 @@ if False:
     "world"  #new line
     print(txt,txt2,txt3)
 # Escape Character
-if True:
+if False:
     print('That\'s what she said!')
     print('Give some Space\there')
     print('add backslash is here : (\\)')
@@ -143,3 +143,9 @@ if True:
     print('remove thisx\b from here')
     print(f'this is hex \"{'\x41'}\" and this is oct \"{'\117'}\" values')
     print("Page One Content\fPage Two Content")
+# String immutability
+if True:
+    greeting = 'Hello'
+    print(f'original string: {greeting} | Memory Location : {id(greeting)}')
+    greeting = greeting + ' world'
+    print(f'new string: {greeting} | New Memory Location: {id(greeting)}')
